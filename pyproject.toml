@@ -1,0 +1,19 @@
+[project]
+name = "zoologist-front"
+version = "0.1.0"
+description = "A Streamlit front-end for the Zoologist project"
+readme = "README.md"
+authors = [
+    { name = "Isabel Sommerfeld", email = "isabel.k.sommerfeld@gmail.com" }
+]
+requires-python = ">=3.12.9"
+dependencies = [
+    "streamlit>=1.63.0",
+]
+
+[project.scripts]
+zoologist-front = "zoologist_front:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
