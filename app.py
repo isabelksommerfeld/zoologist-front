@@ -3,6 +3,9 @@ import requests
 
 st.title("Zoologist - Penguin Species Predictor 🐧")
 
+# Verwendet st.secrets für den API-Link
+api_url = st.secrets["API_URL"]
+
 """
 # Zoologist front
 """
