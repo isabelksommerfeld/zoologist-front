@@ -40,7 +40,7 @@ sex = st.selectbox("Sex", ["Male", "Female"])
 
 # 2. Button & API-Anfrage
 if st.button("Predict"):
-    url = "http://127.0.0.1:8080/predict"
+    url = f"{api_url}/predict"
 
     params = {
         "island": island,
